@@ -1,6 +1,6 @@
 // variables
 let gestureBack = document.querySelector('#gesture-back');
-const images = ['img/back-three.png', 'img/back-two.png', 'img/back-one.jpg'];
+const images = ['img/bk1.jpg', 'img/bk2.png', 'img/bk3.jpg', 'img/bk4.jpg'];
 let i = 0;
 let speed = 5000;
 

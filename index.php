@@ -4,7 +4,7 @@ include 'header.php';
 ?>
 
 <section class="gesture">
-  <img id="gesture-back" src="img/back-three.png" alt="loading image..." style="width:100%;height:300px;"/>
+  <img id="gesture-back" src="img/bk1.jpg" alt="loading image..." style="width:100%;height:300px;"/>
   <div class="gesture-text">
     <p>
       Hi, I am Rosh Pau.
@@ -73,16 +73,16 @@ include 'header.php';
     </div>
   </div>
 </section>
-<section class="about">
+<section class="about" id="about">
   <div class="about-head">
-    <img src="img/back-one.jpg" alt="Avatar..." style="width:70%;height:auto;border:2px solid #ccc;border-radius:10px;" />
+    <img src="img/avatar.jpg" alt="Avatar..." style="width:70%;height:auto;border:2px solid #ccc;border-radius:10px;" />
     <h3>Who is Rosh Pau?</h3>
   </div>
   <article class="about-body">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet nisl diam, sed hendrerit erat feugiat vel. Maecenas sed tempus purus. Sed eu blandit enim. Suspendisse at lectus sit amet metus blandit venenatis. Integer sodales auctor suscipit. Nam vel ipsum sed ex semper placerat quis id mi. Aenean sollicitudin tortor est, sed egestas orci accumsan et. Sed condimentum tortor ac ante suscipit, eu imperdiet orci consequat. Curabitur nisl sapien, hendrerit venenatis ultrices id, lacinia eu eros. Quisque a neque at lacus viverra elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent ipsum purus, ultrices commodo dolor id, porttitor suscipit justo. <a href="#">Learn more...</a>
   </article>
 </section>
-<section class="skills projects">
+<section class="skills projects" id="portfolio">
   <h2>Completed Projects</h2>
   <div class="section-part">
     <div class="project">
