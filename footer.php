@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      &copy; 2021 roshpau.com, a product of CodeCrust Inc. All rights reserved.
+      &copy; 2021 roshpau.com, a product of <a href="https://facebook.com/codecrust" target="_blank"><span style="color:#fff;font-weight:bold;">CodeCrust Inc</span></a>. All rights reserved.
     </div>
   </footer>
   <!-- JavaScript files -->
