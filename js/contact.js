@@ -7,14 +7,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   if (url.indexOf('success') !== -1) {
     report.classList.add('sent');
+    report.innerHTML = 'Your email has been sent successfully.';
   }
 
   if (url.indexOf('error') !== -1) {
     report.classList.add('warning');
-  }
-  
-  if (report.innerText == 'Fill in all inputs below.') {
-    report.classList.add('info');
+    report.innerHTML = 'Something went wrong, please try later.';
   }
 
 });
@@ -30,8 +28,7 @@ function validate() {
   let msg = contactForm.msg.value.trim();
 
   // add warning class
-  formErrors.classList.toggle('info');
-  formErrors.classList.toggle('warning');
+  formErrors.classList.add('warning');
 
   // validate form input.
   if (username == '' || username < 2) {
