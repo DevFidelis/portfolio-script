@@ -283,5 +283,26 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  footer {
+    height: 260px;
+    margin-top: 15px;
+  }
   
+  .footer-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    margin: 10px;
+    height: 150px;
+  }
+  
+  .footer-body-section {
+    margin-left: 5px;
+  }
+  
+  .footer-body .footer-body-section a {
+    display: inline;
+    padding: 3px;
+  }
 }

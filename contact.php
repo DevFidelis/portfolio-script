@@ -1,5 +1,6 @@
 <?php
 // include main site header and form processor.
+$pageTitle = 'Contact';
 include 'header.php';
 include 'inc/processors/contact.process.php';
 ?>

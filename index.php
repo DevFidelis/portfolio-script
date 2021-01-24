@@ -1,5 +1,6 @@
 <?php
 // include main site header.
+$pageTitle = 'Portfolio';
 include 'header.php';
 ?>
 
